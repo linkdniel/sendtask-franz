@@ -1,0 +1,23 @@
+{
+  "name": "sendtask",
+  "version": "1.0.0",
+  "description": "Sendtask",
+  "main": "index.js",
+  "author": "Patrick Daniel",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.sendtask.io/",
+    "serviceName": "sendtask",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
