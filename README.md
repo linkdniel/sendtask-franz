@@ -1,4 +1,4 @@
-# Franz Asana Plugin
+# Franz Sendtask Plugin
 
 The minimum requirement to run a custom Franz integration is Franz v. 4.0.0. To get the latest version visit [meetfranz.com](http://meetfranz.com)
 
@@ -9,5 +9,5 @@ The minimum requirement to run a custom Franz integration is Franz v. 4.0.0. To 
   * Windows: `%appdata%/Franz/Plugins`
   * Linux: `~/.config/Franz/Plugins`
   * _Alternatively: Go to your Franz settings page, scroll down to the bottom and you will see an option to "Open the Franz plugin directory"_
-3. Copy the `asana` folder into the plugins directory
+3. Copy the `sendtask` folder into the plugins directory
 4. Restart Franz
