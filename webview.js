@@ -1,6 +1,6 @@
 const path = require('path');
 
-module.exports = (Franz, options) => {
+module.exports = (Franz) => {
   const getMessages = () => {
     const inbox = document.querySelector('.topbar-notificationsButton.has-newNotifications');
     const passiveCount = inbox === null ? 0 : 1;
