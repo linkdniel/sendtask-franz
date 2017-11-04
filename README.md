@@ -1,13 +1,20 @@
-# Franz Sendtask Plugin
+# Sendtask
+Recipe for [Sendtask](https://www.sendtask.io) integration with [Franz 5](http://meetfranz.com)
 
-The minimum requirement to run a custom Franz integration is Franz v. 4.0.0. To get the latest version visit [meetfranz.com](http://meetfranz.com)
+## To test this dev release
 
-## Installation
-1. To install the plugin download the git repo
-2. Open the Franz Plugins folder on your machine:
-  * Mac: `~Library/Application Support/Franz/Plugins/`
-  * Windows: `%appdata%/Franz/Plugins`
-  * Linux: `~/.config/Franz/Plugins`
-  * _Alternatively: Go to your Franz settings page, scroll down to the bottom and you will see an option to "Open the Franz plugin directory"_
-3. Copy the `sendtask` folder into the plugins directory
+1. Clone/download the folder `sendtask`.
+
+2. Open the Franz Recipe folder on your machine:
+  * Mac: `~/Library/Application Support/Franz/recipes/`
+  * Windows: `%appdata%/Franz/recipes/`
+  * Linux: `~/.config/Franz/recipes/`
+
+3. Create a `dev` folder if you have not already done so
+
+3. Unzip and copy the `sendtask` folder into the recipes dev directory
+
 4. Restart Franz
+
+## How to create your own Franz recipes:
+* [Read the documentation](https://github.com/meetfranz/plugins)
